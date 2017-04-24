@@ -8,14 +8,14 @@ Docker cheatsheet
 `docker build -t IMAGE .`
 
 #### Run image
-Mostly port 80, otherwise choose a port that is not used by any other services
+Mostly port 80, otherwise choose a port that is not used by any other services<br />
 `$ docker run -p PORT:80 IMAGE`
 
 #### Run image in background
 `$ docker run -d -p PORT:80 IMAGE`
 
 #### List all Docker services
-This will get you a list with services and their ID's
+This will get you a list with services and their ID's<br />
 `$ docker ps`
 
 #### Stop service
