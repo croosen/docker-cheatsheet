@@ -37,4 +37,3 @@ This will get you a list with services and their ID's
 `$ docker run -p 4000:80 username/repository:tag`
 
 
-
